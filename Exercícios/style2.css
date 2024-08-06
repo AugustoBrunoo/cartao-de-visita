@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.cor{
+    color: rgb(188, 21, 21);
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.apresentacao__mensagem{
+    width: 615px;
+}
+
+
+.apresentacao__mensagem__titulo{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    color:antiquewhite
+    
+}
+
+.apresentacao__mensagem__paragrafo{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30px;
+    color: azure;
+}
+
+

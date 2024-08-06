@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid black;
+    content: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    color: brown;
+    
+}
+
+.seu-dom{
+    color: red;
+    
+}
