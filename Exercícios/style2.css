@@ -18,12 +18,51 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 10%;
+    gap: 0;
 }
 
 .apresentacao__mensagem{
     width: 615px;
 }
 
+.apresentacao__acoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+
+.apresentacao__acoes__texto{
+    color: antiquewhite;
+    text-align: center;
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+
+}
+
+.apresentacao__acoes__link{
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 3px;
+    width: 300px;
+    padding: 15px 0;
+    
+    text-align: center;
+    color: whitesmoke;
+
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.apresentacao__acoes__link:hover{
+    color: red;
+    border: 2px solid antiquewhite;
+    background-color: #272727;
+}
+    
 
 .apresentacao__mensagem__titulo{
     font-family: "Barlow Condensed", sans-serif;

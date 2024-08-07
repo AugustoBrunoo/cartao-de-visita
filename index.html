@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link">Home</a>
+            <a class="cabecalho__menu__link">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao"> 
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">
@@ -18,12 +23,27 @@
                 Olá! Sou Augusto Bruno, estudante em desenvolvimento <strong class="profissao-destaque">Front-end</strong>, em busca de novos desafios!
             </p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/augusto.bm_/">Instagram</a>
-                <a class="apresentacao__links__link"href="https://github.com/AugustoBrunoo">GitHub</a>
+                <h2 class="apresentacao__links__texto">Acesse minhas redes:</h2>
+
+                <a class="apresentacao__links__link"href="https://github.com/AugustoBrunoo">
+                    <img src="./assets/github.png" alt="logogithub">
+                    GitHub</a>
+
+                <a class="apresentacao__links__link" href="https://www.instagram.com/augusto.bm_/">
+                    <img src="./assets/instagram.png" alt="">
+                    Instagram</a>
+
+                <a class="apresentacao__links__link" href=" ">
+                    <img src="./assets/linkedin.png">
+                    LinkedIn</a>
+                    
+                
             </div>
         </section>
-        <img src="imagem.png" alt="Imagem de uma pessoa programando!">
+        <img src="./assets/imagem.png" alt="Imagem de uma pessoa programando!">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Augusto Bruno.</p>
+    </footer>
 </body>
 </html>
