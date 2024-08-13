@@ -17,7 +17,7 @@
     color: aliceblue;
 
     font-family: "Barlow Condensed", sans-serif;;
-    font-size: 20px;
+    font-size: 1.25rem;
 
     text-decoration: none;
 
@@ -59,7 +59,7 @@ body{
     text-align: center;
 
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 
 }
 
@@ -73,7 +73,7 @@ body{
     text-align: center;
     color: whitesmoke;
 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Barlow Condensed", sans-serif;
 }
 
@@ -86,15 +86,16 @@ body{
 
 .apresentacao__mensagem__titulo{
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     color:antiquewhite
     
 }
 
 .apresentacao__mensagem__paragrafo{
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 30px;
+    font-size: 1.25rem;
     color: azure;
+    padding: 5% 0% 0% 10%;
 }
 
 .rodape{
@@ -102,7 +103,7 @@ body{
     color: aliceblue;
     
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
 
     text-align: center;
     padding: 20px;
